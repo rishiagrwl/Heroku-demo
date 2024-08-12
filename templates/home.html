@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Placement Predictor</title>
+</head>
+<body>
+    <h1>Enter Data for Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="cgpa">CGPA:</label>
+        <input type="text" id="cgpa" name="cgpa" required><br><br>
+
+        <label for="iq">IQ:</label>
+        <input type="text" id="iq" name="iq" required><br><br>
+
+        <label for="profile_score">Profile Score:</label>
+        <input type="text" id="profile_score" name="profile_score" required><br><br>
+        <!-- Add more input fields for other features if needed -->
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
